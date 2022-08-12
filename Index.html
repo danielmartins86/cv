@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Martins</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?2=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<!-- Common Block elements
+ - <p> paragraphs
+ - <h1> headers (h1 to h6)
+ - <div> Divisions
+ - Lists and List itenms (<ol>. <ul>, and <il>)
+ - Forms (<form>)
+ 
+Block Elements - they get all the with in page, blocking other elements
+inline elements - can have muitiples elements in the same space (row)
+-->
+
+<!-- inline elements (don't block other elements inside the same line)
+ - <span> 
+ - <a> anchor 
+--> 
+ 
+<!-- inline/block Elements in CSS:
+        - display: inline; (change block elements to inline elements) 
+        - display: block;  (change inline elements to block elements)
+        - display: none; (remove the element, hide elements) 
+        - display: inline-block (act as inline elements and is possible to change width)
+-->
+
+<!-- Position
+ - Static - by Default (all elements in html are static by default)
+ - Relative (Top, Bottom, Left, Right) adding a value, push the element, for ex: add top 50px, will push 50px down, like a invisible border, add 50px bottom.
+ - Absulute (position absulute from the parent element, for ex: <di>, right 50px, move the element 50px to right)
+ - Fixed (fix an element to is position, if we scrool the website, the element keep fixed at is position)
+-->
+
+
+<div class="top-container"> <!-- div - content division element -->
+    <img class="top-cloud" src="/images/cloud.png" alt="cloud-image">
+    <h1>Daniel Martins</h1>
+    <h2>a Web Designer</h2>
+    <img class="bottom-cloud" src="/images/cloud.png" alt="cloud-image">
+    <img src="/images/mountain.png" alt="mountain-image">
+</div>  
+
+<div class="middle-container">
+    <div class="profile">
+      <img src="/images/photo.png" alt="">
+      <h2>Welcome!</h2>
+      <p class="shy">My name is Daniel Martins, im a professional Portrait photographer based in Portugal and webdev Full Stack Student.</p>
+    </div>
+
+    <div class="hr2">
+      <hr class="hr">
+    </div>
+
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="code-img" src="/images/webdev.png" alt="">
+        <h3>Junior webdev</h3>
+        <p>Full stack Web Developer Student at Udemy Course by Angle Yu </p>
+        <p>Learning HTML, CSS, JS and Bootstrap. Aiming to Finish the Full Stack Boot Camp in 6 months.</p>
+      </div>
+      <div class="skill-row">
+        <img class="camera-img" src="/images/camera.png">
+        <h3>Portrait photographer</h3>
+        <p class="hototext">im a professional Portrait and Fine Art photographer based in Portugal.
+        <p class="hototext">Huge passion for Fantasy, Fine Art, Portrait photography.</p>
+        <p class="hototext">Currently working on massive project involving over 20 models inside the fine Art</p>
+      </div>
+    </div>
+
+    <div>
+      <hr class="hr">
+    </div>
+
+    <div class="contact-me">
+      <h3> Let's Talk? </h3>
+      <p class="contacttext">Do you want a Awesome responsive <strong>Website</strong> for your bussiness?</p>
+      <p class="contacttext">Perhaps an Amazing <em> photographic</em> Session during the golden hour?</p>
+      <p class="shy">Sounds nice to you? Let's chat and discuss some ideias!</p>
+      <a href="mailto:danielmartinsphoto@gmail.com" button class="btn" type="button"> Contact Me </a>
+    </div>
+  </div>
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/danielmartins86" target="_blank">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/ph33num" target="_blank">Twitter</a>
+    <a class="footer-link" href="https://www.instagram.com/danielmartinsphoto" target="_blank">Instagram</a>
+    <p class="copyrights">© 2022 Daniel Martins © Udemy</p>
+  </div>
+
+</body>
+</html>
